@@ -154,7 +154,8 @@ public class Main {
 		int inputnum = sc.nextInt();
 		String result=main.getReadNumNoArray(inputnum);	
 		System.out.println(result);
-		
+		String[] resultstr=null;
+		mainold2(resultstr);
 		
 	}
 	
@@ -201,11 +202,7 @@ public class Main {
 			}else {
 				
 				oddNum++;
-			}
-		
-		
-		
-		
+			}	
 		}
 		System.out.println(oddNum+" "+evenNum);
 	}
